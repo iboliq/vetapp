@@ -1,6 +1,6 @@
 # vetapp
 ### Nasıl Çalıştırılır
-* İsteğe bağlı olarak sanal çevre oluşturulur.
+* İsteğe bağlı olarak `virtual environment` oluşturulur.
 * Dosya içerisinde bulunan `requirements.txt` dosyası `pip install -r requirements.txt` komutu ile yüklenir.
 * Migration işlemleri `python manage.py makemigrations` ardından `python manage.py migrate` komutlarıyla gerçekleştirilir.
 * Yetkili kullanıcı `python manage.py createsuperuser` komutu ile oluşturulur.
